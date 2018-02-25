@@ -38,3 +38,19 @@ public:
         return res;
     }
 };
+
+
+
+int main() {
+    std::vector<int> test;
+    test[0]=3;
+    test[1]=8;
+    test[2]=0;
+    test[3]=2;
+    test[4]=2;
+    test[5]=4;
+    
+    std::cout<<nextGreaterElements(test)[0];
+    
+    return 0;
+}
