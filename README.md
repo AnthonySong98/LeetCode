@@ -1,9 +1,11 @@
 # 1. Array
 
-| 27   | - [x] Remove Element | Easy | Two pointers , 函数erase的使用 |
-| ---- | -------------------- | ---- | ------------------------------ |
-|      |                      |      |                                |
-|      |                      |      |                                |
-|      |                      |      |                                |
-|      |                      |      |                                |
+- [x] Remove Element (27)
 
+  two pointers思想
+
+  只关注不相等的元素
+
+  erase函数的使用
+
+- [ ] 

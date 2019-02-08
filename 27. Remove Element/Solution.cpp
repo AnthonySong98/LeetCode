@@ -24,3 +24,38 @@ public:
         }
     }
 };
+
+
+//two pointer
+class Solution {
+public:
+    int removeElement(vector<int>& nums, int val) {
+        int i =0 ;int j =0 ;
+        for(i=0;i<nums.size();i++){
+            if(nums[i]!=val){
+                nums[j] = nums[i];
+                j++;
+            }
+        }
+        int len = nums.size();
+        for(i=j;i<len;i++) nums.pop_back();
+        return j;
+    }
+};
+
+
+class Solution {
+public:
+    int removeElement(vector<int>& nums, int val) {
+        auto it = nums.begin();
+        while(it!=nums.end()){
+            if(*it==val){
+                nums.erase(it);
+            }
+            else{it++;}
+        }
+        return nums.size();
+    }
+};
+
+
